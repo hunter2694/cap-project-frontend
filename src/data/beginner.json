@@ -1,0 +1,302 @@
+[
+  {
+    "id": 1,
+    "type": "mcq",
+    "question": "What is the purpose of a strong password?",
+    "options": {
+      "A": "To make accounts look cool",
+      "B": "To secure accounts from unauthorized access",
+      "C": "To allow easy login",
+      "D": "To share with friends"
+    },
+    "correct_answer": "B",
+    "explanation": "Strong passwords prevent hackers from easily guessing or cracking them.",
+    "tip": "Use 10+ characters with symbols, numbers, and uppercase letters.",
+    "points": 5
+  },
+  {
+    "id": 2,
+    "type": "mcq",
+    "question": "Which of the following is an example of phishing?",
+    "options": {
+      "A": "Email asking for your password",
+      "B": "Installing antivirus",
+      "C": "Using a strong password",
+      "D": "Restarting your computer"
+    },
+    "correct_answer": "A",
+    "explanation": "Phishing messages trick users into revealing personal data.",
+    "tip": "Never click on suspicious links.",
+    "points": 5
+  },
+  {
+    "id": 3,
+    "type": "mcq",
+    "question": "What device protects your network from threats?",
+    "options": {
+      "A": "Router",
+      "B": "Monitor",
+      "C": "Firewall",
+      "D": "Keyboard"
+    },
+    "correct_answer": "C",
+    "explanation": "Firewalls filter unwanted traffic.",
+    "tip": "Keep firewall turned on at all times.",
+    "points": 5
+  },
+  {
+    "id": 4,
+    "type": "scenario",
+    "question": "You receive an SMS saying you won a lottery. What should you do?",
+    "options": {
+      "A": "Click the link",
+      "B": "Reply immediately",
+      "C": "Ignore or delete it",
+      "D": "Share it with friends"
+    },
+    "correct_answer": "C",
+    "explanation": "Lottery scams are common phishing attempts.",
+    "tip": "Avoid offers that seem too good to be true.",
+    "points": 5
+  },
+  {
+    "id": 5,
+    "type": "mcq",
+    "question": "What does antivirus software do?",
+    "options": {
+      "A": "Creates viruses",
+      "B": "Protects against malware",
+      "C": "Slows your system",
+      "D": "Deletes photos"
+    },
+    "correct_answer": "B",
+    "explanation": "Antivirus scans and removes malicious programs.",
+    "tip": "Keep antivirus updated.",
+    "points": 5
+  },
+  {
+    "id": 6,
+    "type": "mcq",
+    "question": "Which of these is safe to share online?",
+    "options": {
+      "A": "Your password",
+      "B": "Your home address",
+      "C": "Your favorite movie",
+      "D": "Bank details"
+    },
+    "correct_answer": "C",
+    "explanation": "Never share sensitive information publicly.",
+    "tip": "Be careful with personal data on social media.",
+    "points": 5
+  },
+  {
+    "id": 7,
+    "type": "scenario",
+    "question": "Your app suggests updating now. What should you do?",
+    "options": {
+      "A": "Ignore it",
+      "B": "Update only from official stores",
+      "C": "Search for updates manually from unknown sites",
+      "D": "Never update"
+    },
+    "correct_answer": "B",
+    "explanation": "Always update from trusted sources.",
+    "tip": "Updates fix security issues.",
+    "points": 5
+  },
+  {
+    "id": 8,
+    "type": "mcq",
+    "question": "What is malware?",
+    "options": {
+      "A": "A game",
+      "B": "Malicious software",
+      "C": "A browser",
+      "D": "A password manager"
+    },
+    "correct_answer": "B",
+    "explanation": "Malware harms systems or steals information.",
+    "tip": "Don’t download unknown apps.",
+    "points": 5
+  },
+  {
+    "id": 9,
+    "type": "mcq",
+    "question": "Why should you log out after using a public device?",
+    "options": {
+      "A": "To reset the PC",
+      "B": "To avoid others misusing your account",
+      "C": "To save battery",
+      "D": "To install updates"
+    },
+    "correct_answer": "B",
+    "explanation": "Logged-in sessions can be exploited.",
+    "tip": "Avoid logging into sensitive accounts on public devices.",
+    "points": 5
+  },
+  {
+    "id": 10,
+    "type": "scenario",
+    "question": "You find a USB drive on the ground. What should you do?",
+    "options": {
+      "A": "Plug it into your computer",
+      "B": "Give it to a friend",
+      "C": "Hand it to security",
+      "D": "Use it immediately"
+    },
+    "correct_answer": "C",
+    "explanation": "Unknown USBs may contain malware.",
+    "tip": "Never insert untrusted devices.",
+    "points": 5
+  },
+  {
+    "id": 11,
+    "type": "mcq",
+    "question": "What is two-factor authentication?",
+    "options": {
+      "A": "Two passwords",
+      "B": "Password + additional verification",
+      "C": "Two devices",
+      "D": "Two users"
+    },
+    "correct_answer": "B",
+    "explanation": "2FA adds an extra layer of security.",
+    "tip": "Always enable 2FA on important accounts.",
+    "points": 5
+  },
+  {
+    "id": 12,
+    "type": "mcq",
+    "question": "Which one is a secure practice?",
+    "options": {
+      "A": "Using the same password everywhere",
+      "B": "Sharing passwords",
+      "C": "Using a password manager",
+      "D": "Writing password on paper"
+    },
+    "correct_answer": "C",
+    "explanation": "Password managers store passwords safely.",
+    "tip": "Use unique passwords for each site.",
+    "points": 5
+  },
+  {
+    "id": 13,
+    "type": "scenario",
+    "question": "A website asks you to install an unknown plugin. What should you do?",
+    "options": {
+      "A": "Install it immediately",
+      "B": "Ignore and leave the website",
+      "C": "Disable your antivirus",
+      "D": "Restart your computer"
+    },
+    "correct_answer": "B",
+    "explanation": "Unknown plugins often contain malware.",
+    "tip": "Install extensions only from official stores.",
+    "points": 5
+  },
+  {
+    "id": 14,
+    "type": "mcq",
+    "question": "What does HTTPS mean?",
+    "options": {
+      "A": "Secure website",
+      "B": "Hacking tool",
+      "C": "Old protocol",
+      "D": "Offline mode"
+    },
+    "correct_answer": "A",
+    "explanation": "HTTPS encrypts data between you and the site.",
+    "tip": "Avoid entering passwords on HTTP sites.",
+    "points": 5
+  },
+  {
+    "id": 15,
+    "type": "mcq",
+    "question": "Which is an example of personal information?",
+    "options": {
+      "A": "Favorite color",
+      "B": "Phone number",
+      "C": "Favorite movie",
+      "D": "Pet name"
+    },
+    "correct_answer": "B",
+    "explanation": "Phone number identifies you uniquely.",
+    "tip": "Share PII only with trusted services.",
+    "points": 5
+  },
+  {
+    "id": 16,
+    "type": "mcq",
+    "question": "What should you do before clicking any link?",
+    "options": {
+      "A": "Click fast",
+      "B": "Check URL carefully",
+      "C": "Forward to friends",
+      "D": "Screenshot it"
+    },
+    "correct_answer": "B",
+    "explanation": "Attackers disguise phishing links.",
+    "tip": "Hover to preview the real URL.",
+    "points": 5
+  },
+  {
+    "id": 17,
+    "type": "scenario",
+    "question": "Your mobile says 'Storage full'. What should you avoid?",
+    "options": {
+      "A": "Deleting old apps",
+      "B": "Installing storage cleaner from unknown sources",
+      "C": "Clearing cache",
+      "D": "Deleting duplicates"
+    },
+    "correct_answer": "B",
+    "explanation": "Fake 'cleaner' apps often carry malware.",
+    "tip": "Use only trusted apps from Play Store/App Store.",
+    "points": 5
+  },
+  {
+    "id": 18,
+    "type": "mcq",
+    "question": "Which of these is a cyber threat?",
+    "options": {
+      "A": "Malware",
+      "B": "Sunlight",
+      "C": "Fresh air",
+      "D": "Exercise"
+    },
+    "correct_answer": "A",
+    "explanation": "Malware harms your system.",
+    "tip": "Scan your device regularly.",
+    "points": 5
+  },
+  {
+    "id": 19,
+    "type": "mcq",
+    "question": "What should you do when your password gets leaked?",
+    "options": {
+      "A": "Ignore it",
+      "B": "Change password immediately",
+      "C": "Tell nobody",
+      "D": "Share password"
+    },
+    "correct_answer": "B",
+    "explanation": "Leaked passwords must be changed ASAP.",
+    "tip": "Enable 2FA for added security.",
+    "points": 5
+  },
+  {
+    "id": 20,
+    "type": "scenario",
+    "question": "You login at a cybercafe. What should you do afterward?",
+    "options": {
+      "A": "Stay logged in",
+      "B": "Clear browser history",
+      "C": "Log out completely",
+      "D": "Save passwords"
+    },
+    "correct_answer": "C",
+    "explanation": "Logging out ensures others can’t access your accounts.",
+    "tip": "Avoid sensitive logins on public PCs.",
+    "points": 5
+  }
+]

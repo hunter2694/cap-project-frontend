@@ -1,0 +1,302 @@
+[
+  {
+    "id": 1,
+    "type": "mcq",
+    "question": "What is the primary purpose of Multi-Factor Authentication (MFA)?",
+    "options": {
+      "A": "To remove the need for passwords",
+      "B": "To add additional layers of security",
+      "C": "To make login faster",
+      "D": "To track user locations"
+    },
+    "correct_answer": "B",
+    "explanation": "MFA adds extra verification steps to increase account security.",
+    "tip": "Enable MFA on banking, email, and social accounts.",
+    "points": 10
+  },
+  {
+    "id": 2,
+    "type": "mcq",
+    "question": "Which of the following is an example of a strong authentication factor?",
+    "options": {
+      "A": "Password alone",
+      "B": "OTP sent to your phone",
+      "C": "Your birthdate",
+      "D": "Your username"
+    },
+    "correct_answer": "B",
+    "explanation": "OTP (One-Time Password) is an additional verification factor.",
+    "tip": "Avoid saving OTPs in insecure apps.",
+    "points": 10
+  },
+  {
+    "id": 3,
+    "type": "scenario",
+    "question": "You receive an email claiming your account will be locked unless you verify it. What is the best action?",
+    "options": {
+      "A": "Click the link to verify",
+      "B": "Reply and ask for details",
+      "C": "Ignore and check the official website directly",
+      "D": "Forward email to friends for help"
+    },
+    "correct_answer": "C",
+    "explanation": "Phishing emails try to scare users into clicking malicious links.",
+    "tip": "Never act on unsolicited urgency messages.",
+    "points": 10
+  },
+  {
+    "id": 4,
+    "type": "mcq",
+    "question": "Which of the following best describes ransomware?",
+    "options": {
+      "A": "A virus that steals passwords",
+      "B": "A tool used for testing firewalls",
+      "C": "Malware that encrypts data and demands payment",
+      "D": "Software used for backups"
+    },
+    "correct_answer": "C",
+    "explanation": "Ransomware locks data and asks for payment to restore access.",
+    "tip": "Create backups regularly to protect against ransomware.",
+    "points": 10
+  },
+  {
+    "id": 5,
+    "type": "mcq",
+    "question": "Which technique do hackers use to guess passwords?",
+    "options": {
+      "A": "Phishing attack",
+      "B": "Brute-force attack",
+      "C": "Data encryption",
+      "D": "Firewall bypass"
+    },
+    "correct_answer": "B",
+    "explanation": "Brute-force attacks attempt all possible combinations.",
+    "tip": "Use long passwords to resist brute-force attacks.",
+    "points": 10
+  },
+  {
+    "id": 6,
+    "type": "scenario",
+    "question": "Your system becomes extremely slow after opening an unknown file. What should you do?",
+    "options": {
+      "A": "Ignore it",
+      "B": "Restart the computer",
+      "C": "Disconnect from internet and run antivirus scan",
+      "D": "Keep using the file"
+    },
+    "correct_answer": "C",
+    "explanation": "Unknown files can contain malware that activates on network.",
+    "tip": "Always scan downloaded files before opening.",
+    "points": 10
+  },
+  {
+    "id": 7,
+    "type": "mcq",
+    "question": "Which protocol ensures encrypted web communication?",
+    "options": {
+      "A": "HTTP",
+      "B": "HTTPS",
+      "C": "FTP",
+      "D": "TCP"
+    },
+    "correct_answer": "B",
+    "explanation": "HTTPS uses TLS to encrypt communication.",
+    "tip": "Avoid entering passwords on non-HTTPS sites.",
+    "points": 10
+  },
+  {
+    "id": 8,
+    "type": "mcq",
+    "question": "What is a VPN used for?",
+    "options": {
+      "A": "Increasing internet speed",
+      "B": "Encrypting internet traffic",
+      "C": "Creating malware",
+      "D": "Updating software"
+    },
+    "correct_answer": "B",
+    "explanation": "VPN provides secure and encrypted network connections.",
+    "tip": "Use VPN on public WiFi networks.",
+    "points": 10
+  },
+  {
+    "id": 9,
+    "type": "scenario",
+    "question": "Your social media account shows a login from another country. What is your next step?",
+    "options": {
+      "A": "Ignore it",
+      "B": "Share the event on your story",
+      "C": "Change password immediately",
+      "D": "Log out from your own device"
+    },
+    "correct_answer": "C",
+    "explanation": "Suspicious logins mean someone else accessed your account.",
+    "tip": "Enable login alerts on all accounts.",
+    "points": 10
+  },
+  {
+    "id": 10,
+    "type": "mcq",
+    "question": "Which of these is an example of social engineering?",
+    "options": {
+      "A": "Antivirus scan",
+      "B": "Fake tech support call",
+      "C": "Software update",
+      "D": "Password manager usage"
+    },
+    "correct_answer": "B",
+    "explanation": "Social engineering manipulates users psychologically.",
+    "tip": "Never share personal info over phone with unknown callers.",
+    "points": 10
+  },
+  {
+    "id": 11,
+    "type": "mcq",
+    "question": "What is a potential risk of using public WiFi?",
+    "options": {
+      "A": "Faster internet",
+      "B": "Battery drains faster",
+      "C": "Man-in-the-middle attacks",
+      "D": "Better video streaming"
+    },
+    "correct_answer": "C",
+    "explanation": "Attackers can intercept unencrypted traffic.",
+    "tip": "Use VPN when accessing public WiFi.",
+    "points": 10
+  },
+  {
+    "id": 12,
+    "type": "scenario",
+    "question": "You find unknown software installed on your laptop. What should you do?",
+    "options": {
+      "A": "Ignore it",
+      "B": "Uninstall immediately and scan system",
+      "C": "Check if it looks cool",
+      "D": "Let it run in background"
+    },
+    "correct_answer": "B",
+    "explanation": "Unknown apps often come via malware bundles.",
+    "tip": "Download apps only from official stores.",
+    "points": 10
+  },
+  {
+    "id": 13,
+    "type": "mcq",
+    "question": "What does a strong firewall configuration help with?",
+    "options": {
+      "A": "Increasing speed",
+      "B": "Blocking malicious traffic",
+      "C": "Changing wallpapers",
+      "D": "Saving battery"
+    },
+    "correct_answer": "B",
+    "explanation": "Firewalls prevent unauthorized access.",
+    "tip": "Enable firewall on all devices.",
+    "points": 10
+  },
+  {
+    "id": 14,
+    "type": "mcq",
+    "question": "Which attack compromises data confidentiality?",
+    "options": {
+      "A": "DDoS attack",
+      "B": "Eavesdropping attack",
+      "C": "Ping flood",
+      "D": "Port scan"
+    },
+    "correct_answer": "B",
+    "explanation": "Eavesdropping steals sensitive information.",
+    "tip": "Use encrypted connections to protect data.",
+    "points": 10
+  },
+  {
+    "id": 15,
+    "type": "scenario",
+    "question": "Your browser shows a certificate warning for a website. What should you do?",
+    "options": {
+      "A": "Proceed anyway",
+      "B": "Try opening the site in incognito",
+      "C": "Avoid the site; certificate may be compromised",
+      "D": "Restart your PC"
+    },
+    "correct_answer": "C",
+    "explanation": "Certificate warnings indicate security risks.",
+    "tip": "Access only websites with valid HTTPS certificates.",
+    "points": 10
+  },
+  {
+    "id": 16,
+    "type": "mcq",
+    "question": "What is the purpose of encryption?",
+    "options": {
+      "A": "To make messages fancy",
+      "B": "To hide data from unauthorized users",
+      "C": "To make internet faster",
+      "D": "To save data"
+    },
+    "correct_answer": "B",
+    "explanation": "Encryption ensures only authorized users can read the data.",
+    "tip": "Use apps with end-to-end encryption.",
+    "points": 10
+  },
+  {
+    "id": 17,
+    "type": "scenario",
+    "question": "Your friend asks for your Netflix password. What should you do?",
+    "options": {
+      "A": "Share it immediately",
+      "B": "Say no and explain security risks",
+      "C": "Set a weak password for sharing",
+      "D": "Write it on paper and give it"
+    },
+    "correct_answer": "B",
+    "explanation": "Passwords should never be shared for any account.",
+    "tip": "Enable multi-user profiles instead.",
+    "points": 10
+  },
+  {
+    "id": 18,
+    "type": "mcq",
+    "question": "Which of these is a common malware delivery method?",
+    "options": {
+      "A": "PDF invoices from unknown senders",
+      "B": "Weather apps",
+      "C": "Official OS updates",
+      "D": "Online calculators"
+    },
+    "correct_answer": "A",
+    "explanation": "Malicious attachments are a major delivery technique.",
+    "tip": "Do not open attachments from untrusted sources.",
+    "points": 10
+  },
+  {
+    "id": 19,
+    "type": "mcq",
+    "question": "What is spear phishing?",
+    "options": {
+      "A": "General phishing sent to everyone",
+      "B": "Targeted phishing to specific individuals",
+      "C": "Phishing using phone calls",
+      "D": "Random messages in groups"
+    },
+    "correct_answer": "B",
+    "explanation": "Spear phishing targets specific users for higher success.",
+    "tip": "Verify unexpected emails even from known people.",
+    "points": 10
+  },
+  {
+    "id": 20,
+    "type": "scenario",
+    "question": "Your passwords are stored in a notepad file on your desktop. What should you do?",
+    "options": {
+      "A": "Do nothing",
+      "B": "Move it to USB",
+      "C": "Delete the file and use a password manager",
+      "D": "Rename file to hide it"
+    },
+    "correct_answer": "C",
+    "explanation": "Plain text password storage is unsafe.",
+    "tip": "Use encrypted password vaults.",
+    "points": 10
+  }
+]

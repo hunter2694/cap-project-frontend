@@ -1,0 +1,302 @@
+[
+  {
+    "id": 1,
+    "type": "mcq",
+    "question": "Which MITM technique involves ARP table manipulation?",
+    "options": {
+      "A": "ARP spoofing",
+      "B": "DNS poisoning",
+      "C": "MAC flooding",
+      "D": "IP fragmentation"
+    },
+    "correct_answer": "A",
+    "explanation": "ARP spoofing redirects traffic to the attacker by altering ARP tables.",
+    "tip": "Use dynamic ARP inspection and static ARP entries.",
+    "points": 20
+  },
+  {
+    "id": 2,
+    "type": "mcq",
+    "question": "Which hashing algorithm is considered insecure?",
+    "options": {
+      "A": "SHA-256",
+      "B": "SHA-3",
+      "C": "MD5",
+      "D": "Bcrypt"
+    },
+    "correct_answer": "C",
+    "explanation": "MD5 is vulnerable to collisions and should not be used.",
+    "tip": "Use SHA-256 or Bcrypt for password hashing.",
+    "points": 20
+  },
+  {
+    "id": 3,
+    "type": "scenario",
+    "question": "Your IDS logs detect repeated connection attempts to multiple ports. What attack is happening?",
+    "options": {
+      "A": "SQL Injection",
+      "B": "Port scanning",
+      "C": "ARP poisoning",
+      "D": "Session takeover"
+    },
+    "correct_answer": "B",
+    "explanation": "Port scanning identifies open services on a host.",
+    "tip": "Use firewalls to limit scanning attempts.",
+    "points": 20
+  },
+  {
+    "id": 4,
+    "type": "mcq",
+    "question": "Which OWASP vulnerability relates to user input not being sanitized?",
+    "options": {
+      "A": "Insecure Deserialization",
+      "B": "XSS",
+      "C": "CSRF",
+      "D": "Broken Authentication"
+    },
+    "correct_answer": "B",
+    "explanation": "XSS occurs when malicious scripts run due to poor sanitization.",
+    "tip": "Escape and validate all input.",
+    "points": 20
+  },
+  {
+    "id": 5,
+    "type": "mcq",
+    "question": "Which cybersecurity framework uses Identify → Protect → Detect → Respond → Recover?",
+    "options": {
+      "A": "MITRE ATT&CK",
+      "B": "NIST CSF",
+      "C": "ISO 27001",
+      "D": "CIS Controls"
+    },
+    "correct_answer": "B",
+    "explanation": "NIST Cybersecurity Framework uses this structured cycle.",
+    "tip": "Use NIST CSF for enterprise-level security planning.",
+    "points": 20
+  },
+  {
+    "id": 6,
+    "type": "scenario",
+    "question": "A Linux server shows repeated failed SSH attempts from multiple IPs. What attack is likely?",
+    "options": {
+      "A": "Dictionary attack",
+      "B": "SQL injection",
+      "C": "Local privilege escalation",
+      "D": "Reverse shell"
+    },
+    "correct_answer": "A",
+    "explanation": "Multiple password attempts indicate a dictionary attack.",
+    "tip": "Use fail2ban and SSH key authentication.",
+    "points": 20
+  },
+  {
+    "id": 7,
+    "type": "mcq",
+    "question": "Which encryption mode is used in WiFi WPA2?",
+    "options": {
+      "A": "AES-CCMP",
+      "B": "DES",
+      "C": "RC4",
+      "D": "Blowfish"
+    },
+    "correct_answer": "A",
+    "explanation": "WPA2 uses AES in CCMP mode for secure WiFi encryption.",
+    "tip": "Always disable WEP and WPA1.",
+    "points": 20
+  },
+  {
+    "id": 8,
+    "type": "mcq",
+    "question": "What is the purpose of a reverse shell?",
+    "options": {
+      "A": "To increase system speed",
+      "B": "To connect back to attacker-controlled system",
+      "C": "To bypass CAPTCHA",
+      "D": "To encrypt logs"
+    },
+    "correct_answer": "B",
+    "explanation": "Reverse shells allow attackers to remotely control systems.",
+    "tip": "Use egress filtering and monitoring.",
+    "points": 20
+  },
+  {
+    "id": 9,
+    "type": "scenario",
+    "question": "Your web server crashes after receiving many large requests. Which attack is this?",
+    "options": {
+      "A": "Buffer overflow",
+      "B": "DDoS",
+      "C": "Phishing",
+      "D": "Keylogging"
+    },
+    "correct_answer": "B",
+    "explanation": "DDoS floods servers with traffic to stop services.",
+    "tip": "Use rate limiting and CDN protection.",
+    "points": 20
+  },
+  {
+    "id": 10,
+    "type": "mcq",
+    "question": "Which log file tracks SSH logins in Linux?",
+    "options": {
+      "A": "/var/log/secure",
+      "B": "/var/log/auth.log",
+      "C": "/etc/passwd",
+      "D": "/etc/shadow"
+    },
+    "correct_answer": "B",
+    "explanation": "auth.log contains authentication logs like SSH logins.",
+    "tip": "Monitor for suspicious login attempts.",
+    "points": 20
+  },
+  {
+    "id": 11,
+    "type": "mcq",
+    "question": "What technique hides malicious code inside legitimate traffic?",
+    "options": {
+      "A": "Steganography",
+      "B": "Hashing",
+      "C": "Encoding",
+      "D": "DHCP snooping"
+    },
+    "correct_answer": "A",
+    "explanation": "Steganography hides data in images or files.",
+    "tip": "Use file integrity monitoring.",
+    "points": 20
+  },
+  {
+    "id": 12,
+    "type": "scenario",
+    "question": "Your IDS alerts show suspicious power-shell commands. What might be happening?",
+    "options": {
+      "A": "User installing apps",
+      "B": "Attacker running malicious scripts",
+      "C": "System update in progress",
+      "D": "Low disk space"
+    },
+    "correct_answer": "B",
+    "explanation": "PowerShell is often used in fileless attacks.",
+    "tip": "Enable PowerShell logging and restrict execution policies.",
+    "points": 20
+  },
+  {
+    "id": 13,
+    "type": "mcq",
+    "question": "Which attack involves exploiting serialized objects?",
+    "options": {
+      "A": "SQL Injection",
+      "B": "Insecure Deserialization",
+      "C": "Broken Access Control",
+      "D": "LDAP Injection"
+    },
+    "correct_answer": "B",
+    "explanation": "Untrusted deserialization can allow remote code execution.",
+    "tip": "Avoid serialization of untrusted data.",
+    "points": 20
+  },
+  {
+    "id": 14,
+    "type": "mcq",
+    "question": "Which tool is commonly used for network packet analysis?",
+    "options": {
+      "A": "Nmap",
+      "B": "Wireshark",
+      "C": "Burp Suite",
+      "D": "Metasploit"
+    },
+    "correct_answer": "B",
+    "explanation": "Wireshark captures and analyzes network packets.",
+    "tip": "Use filters to analyze specific traffic.",
+    "points": 20
+  },
+  {
+    "id": 15,
+    "type": "scenario",
+    "question": "A user with limited privileges executes admin-level commands. What vulnerability exists?",
+    "options": {
+      "A": "XSS",
+      "B": "Privilege Escalation",
+      "C": "CSRF",
+      "D": "Buffer overflow"
+    },
+    "correct_answer": "B",
+    "explanation": "Privilege escalation abuses misconfigured permissions.",
+    "tip": "Regularly audit access control settings.",
+    "points": 20
+  },
+  {
+    "id": 16,
+    "type": "mcq",
+    "question": "Which protocol secures email transport?",
+    "options": {
+      "A": "SMTP",
+      "B": "SMTPS",
+      "C": "POP3",
+      "D": "IMAP"
+    },
+    "correct_answer": "B",
+    "explanation": "SMTPS uses TLS to secure emails in transit.",
+    "tip": "Use TLS-enabled endpoints for secure email.",
+    "points": 20
+  },
+  {
+    "id": 17,
+    "type": "mcq",
+    "question": "What is SQL injection used for?",
+    "options": {
+      "A": "Encrypting databases",
+      "B": "Manipulating database queries",
+      "C": "Scanning open ports",
+      "D": "Bypassing firewalls"
+    },
+    "correct_answer": "B",
+    "explanation": "SQL injection exploits unsanitized queries.",
+    "tip": "Use prepared statements to avoid SQLi.",
+    "points": 20
+  },
+  {
+    "id": 18,
+    "type": "scenario",
+    "question": "Your SIEM reports multiple failed login attempts followed by a success. What likely happened?",
+    "options": {
+      "A": "User forgot password",
+      "B": "Brute-force attack succeeded",
+      "C": "Normal system update",
+      "D": "Power outage"
+    },
+    "correct_answer": "B",
+    "explanation": "Multiple failures then success indicate brute-force success.",
+    "tip": "Implement account lockout policies.",
+    "points": 20
+  },
+  {
+    "id": 19,
+    "type": "mcq",
+    "question": "Which file contains Linux user password hashes?",
+    "options": {
+      "A": "/etc/passwd",
+      "B": "/etc/shadow",
+      "C": "/var/log/messages",
+      "D": "/usr/bin"
+    },
+    "correct_answer": "B",
+    "explanation": "/etc/shadow stores secure password hashes.",
+    "tip": "Restrict shadow file permissions.",
+    "points": 20
+  },
+  {
+    "id": 20,
+    "type": "scenario",
+    "question": "A web application exposes detailed error messages. What risk does this create?",
+    "options": {
+      "A": "More user convenience",
+      "B": "Information disclosure",
+      "C": "Faster processing",
+      "D": "Encrypted sessions"
+    },
+    "correct_answer": "B",
+    "explanation": "Verbose errors reveal internal logic useful for attackers.",
+    "tip": "Disable detailed error messages in production.",
+    "points": 20
+  }
+]
