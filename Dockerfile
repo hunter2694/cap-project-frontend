@@ -13,7 +13,8 @@ RUN npm install --include=dev
 COPY . .
 
 # Build the app using local Vite
-RUN npx vite build
+RUN npm install -g vite
+RUN vite build
 
 # Stage 2: Serve with nginx
 FROM nginx:stable
