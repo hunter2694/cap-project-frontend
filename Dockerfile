@@ -1,25 +1,24 @@
-# Stage 1: Build stage
-FROM node:18 AS build
+# Stage 1: Build
+FROM node:22 AS build
 
 WORKDIR /app
 
 # Copy package files first
 COPY package*.json ./
 
-# Install all dependencies including devDependencies
-# Use --legacy-peer-deps to avoid peer dependency errors
-RUN npm install --legacy-peer-deps
+# Install dependencies (including devDependencies)
+RUN npm install
 
-# Copy all project files
+# Copy all source files
 COPY . .
 
-# Build the app using npx (ensures local vite is found)
-RUN npx vite build
+# Build the app
+RUN npm run build
 
-# Stage 2: Nginx to serve the app
+# Stage 2: Serve with nginx
 FROM nginx:stable
 
-# Copy build output
+# Copy build artifacts
 COPY --from=build /app/dist /usr/share/nginx/html
 
 EXPOSE 80
