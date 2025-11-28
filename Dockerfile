@@ -6,19 +6,18 @@ WORKDIR /app
 # Copy package files first
 COPY package*.json ./
 
-# Install dependencies (including devDependencies)
+# Install dependencies including devDependencies
 RUN npm install --include=dev
 
-# Copy all source files
+# Copy source files
 COPY . .
 
-# Build the app
-RUN npm run build
+# Build the app using local Vite
+RUN npx vite build
 
 # Stage 2: Serve with nginx
 FROM nginx:stable
 
-# Copy build artifacts
 COPY --from=build /app/dist /usr/share/nginx/html
 
 EXPOSE 80
